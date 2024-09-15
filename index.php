@@ -301,7 +301,7 @@
                 },
                 success: function(response) {
                     toastr.success('Group Successfully updated!')
-                    // $('.modal').modal('toggle');
+                    $('.modal').modal('toggle');
                     fontGroupList.ajax.reload();
                 }
             });
