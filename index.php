@@ -202,6 +202,7 @@
                 success: function(response) {
                     toastr.success('Group Successfully deleted!');
                     fontList.ajax.reload();
+                    fontGroupList.ajax.reload();
                 }
             });
         }
